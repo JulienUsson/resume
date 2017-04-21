@@ -36,7 +36,6 @@ export default {
   justify-content: center;
 
   background-color: #40C4FF;
-  color: #212121;
   font-weight: bold;
   text-align: center;
 }

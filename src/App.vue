@@ -54,6 +54,7 @@ body,
   margin: 0;
   height: 100%;
   font-family: 'Roboto', sans-serif;
+  color: #212121;
 }
 
 pre {
