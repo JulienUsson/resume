@@ -7,11 +7,13 @@ export const SET_RESUME = 'SET_RESUME';
 
 // state
 const state = {
+  loaded: false,
   resume: {},
 };
 
 // getters
 const getters = {
+  loaded: state => state.loaded,
   resume: state => state.resume,
   profil: state => state.resume.profil,
   experiences: state => state.resume.experiences,
@@ -38,6 +40,7 @@ const actions = {
 const mutations = {
   [SET_RESUME](state, resume) {
     state.resume = resume;
+    state.loaded = true;
   },
 };
 

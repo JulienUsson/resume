@@ -1,25 +1,48 @@
 <template>
-  <div id="app" v-if="resume">
-    <hero/>
+  <div id="app">
+    <template v-if="loaded">
+      <profil/>
+      <experience/>
+      <Skills/>
+      <Education/>
+      <Hobbies/>
+      <Contact/>
+      <Footer/>
+    </template>
+    <template v-else>
+      Loading...
+    </template>
   </div>
 </template>
 
 <script>
 import { mapGetters } from 'vuex';
-import Hero from './components/Hero';
+import Profil from './components/Profil';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
+import Education from './components/Education';
+import Hobbies from './components/Hobbies';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 export default {
   name: 'app',
   computed: {
     ...mapGetters([
-      'resume',
+      'loaded',
     ]),
   },
   created() {
     this.$store.dispatch('getResumeData');
   },
   components: {
-    Hero,
+    Profil,
+    Experience,
+    Skills,
+    Education,
+    Hobbies,
+    Contact,
+    Footer,
   },
 };
 </script>
@@ -39,6 +62,6 @@ pre {
 }
 
 h2 {
-    margin: 0;
+  margin: 0;
 }
 </style>
