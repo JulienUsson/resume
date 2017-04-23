@@ -47,14 +47,16 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import './styles/variables';
+
 html,
 body,
 #app {
   margin: 0;
   height: 100%;
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color: $text-color;
 }
 
 pre {

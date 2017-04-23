@@ -10,10 +10,12 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import '../styles/variables';
+
 #footer {
   text-align: center;
-  line-height: 50px;
-  background-color: #40C4FF;
+  line-height: 100px;
+  background-color: $primary-color;
 }
 </style>
