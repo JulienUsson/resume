@@ -10,7 +10,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import { Timeline, TimelineTitle, TimelineItem } from './Timeline';
+import { Timeline, TimelineItem } from './Timeline';
 import Block from './Block';
 
 export default {
@@ -22,7 +22,6 @@ export default {
   components: {
     Block,
     Timeline,
-    TimelineTitle,
     TimelineItem,
   },
 };

@@ -23,6 +23,6 @@ export default {
 }
 
 .timeline ellipse {
-  fill: $primary-color;
+  fill: $accent-color;
 }
 </style>

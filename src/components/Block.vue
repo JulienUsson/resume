@@ -1,6 +1,6 @@
 <template>
   <div class="block">
-    <h2>{{title}}</h2>
+    <h1 class="block-title">{{title}}</h1>
     <slot/>
   </div>
 </template>
@@ -14,11 +14,16 @@ export default {
 </script>
 
 <style lang="scss">
-  .block {
-    width: 90%;
-    margin: 10px auto;
-     h2 {
-       padding-bottom: 10px;
-     }
+@import '../styles/variables';
+
+.block {
+  width: 90%;
+  margin: 10px auto;
+
+  .block-title {
+    color: $primary-color;
+    padding-bottom: 10px;
   }
+  
+}
 </style>
