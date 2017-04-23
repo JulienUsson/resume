@@ -1,6 +1,8 @@
 <template>
   <div id="footer">
     Made with VueJS, Vuex and ❤ by Julien Usson
+    <span class="small">Thanks to <a href="http://www.heropatterns.com/">Hero Patterns</a> for this gorgeous hero background</span>
+    <span class="xsmall">There is no konami code</span> 
   </div>
 </template>
 
@@ -14,8 +16,21 @@ export default {
 @import '../styles/variables';
 
 #footer {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+
   text-align: center;
-  line-height: 100px;
   background-color: $primary-color;
+
+  .small {
+    font-size: 12px;
+  }
+
+  .xsmall {
+    font-size: 10px;
+  }
 }
 </style>
