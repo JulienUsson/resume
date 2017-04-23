@@ -2,7 +2,6 @@
   <div class="timeline">
     <timeline-separator/>
     <slot/>
-    <timeline-separator/>
   </div>
 </template>
 
@@ -18,10 +17,6 @@ export default {
 
 <style lang="scss">
 @import '../../styles/variables';
-
-.timeline {
-  padding-left: 15px;
-}
 
 .timeline rect {
   fill: $timeline-color;

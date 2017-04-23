@@ -59,6 +59,10 @@ body,
   color: $text-color;
 }
 
+p {
+  margin: 0;
+}
+
 pre {
   font-family: inherit;
   margin: 0;
