@@ -7,7 +7,7 @@
           <b>{{experienceItem.date}}</b> - {{experienceItem.title}}
           <br/>
           <template v-for="skill in experienceItem.skills">
-            <chips>#{{skill}}</chips>
+            <chips>{{skill}}</chips>
           </template>
         </timeline-item>
       </template>

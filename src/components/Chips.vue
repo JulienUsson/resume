@@ -1,7 +1,5 @@
 <template>
-  <span class="chips">
-      <slot/>
-    </span>
+  <span class="chips">#<slot/></span>
 </template>
 
 <script>

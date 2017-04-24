@@ -46,7 +46,7 @@ export default {
 
 #hero-center {
   padding: 15px 0;
-  background-color: $primary-color;
+  background-color: $accent-color;
 }
 
 #hero img {
