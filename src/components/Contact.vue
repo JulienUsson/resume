@@ -2,25 +2,25 @@
   <block title="Contact">
     <div id="contact">
       <div>
-        <a :href="mailUrl">
+        <a :href="mailUrl" >
           <icon class="icon" name="envelope" scale="6"></icon>
         </a>
         <div>Contactez moi par mail</div>
       </div>
       <div>
-        <a :href="contact.github">
+        <a :href="contact.github" target="_blank">
           <icon class="icon" name="github-alt" scale="6"></icon>
         </a>
         <div>Découvrez mon GitHub</div>
       </div>
       <div>
-        <a :href="contact.linkedin">
+        <a :href="contact.linkedin" target="_blank">
           <icon class="icon" name="linkedin" scale="6"></icon>
         </a>
         <div>Retrouvez moi sur LinkedIn</div>
       </div>
       <div>
-        <a :href="contact.twitter">
+        <a :href="contact.twitter" target="_blank">
           <icon class="icon" name="twitter" scale="6"></icon>
         </a>
         <div>Suivez moi sur Twitter</div>
