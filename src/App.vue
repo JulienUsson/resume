@@ -72,6 +72,7 @@ p {
 pre {
   font-family: inherit;
   margin: 0;
+  white-space: pre-wrap;
 }
 
 h2 {

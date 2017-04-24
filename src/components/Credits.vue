@@ -21,11 +21,12 @@ export default {
   flex-grow: 1;
   justify-content: center;
 
+  font-weight: bold;
   text-align: center;
   background-color: $primary-color;
 
   .small {
-    font-size: 12px;
+    font-size: 0.7em;
   }
 }
 </style>
