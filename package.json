@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^0.16.1",
     "js-md5": "^0.4.2",
+    "konami-code": "^0.2.1",
     "vue": "^2.2.6",
     "vue-awesome": "^2.2.8",
     "vuex": "^2.3.1"

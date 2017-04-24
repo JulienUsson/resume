@@ -19,6 +19,7 @@
 </template>
 
 <script>
+import KonamiCode from 'konami-code';
 import { mapGetters } from 'vuex';
 import Profil from './components/Profil';
 import Experience from './components/Experience';
@@ -36,8 +37,13 @@ export default {
       'loaded',
     ]),
   },
-  created() {
+  mounted() {
     this.$store.dispatch('getResumeData');
+
+    const konami = new KonamiCode();
+    konami.listen(() => {
+      document.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+    });
   },
   components: {
     Profil,
