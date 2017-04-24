@@ -1,7 +1,9 @@
 <template>
   <div id="footer">
-    Made with VueJS, Vuex and ❤ by Julien Usson
-    <span class="small">Thanks to <a href="http://www.heropatterns.com/">Hero Patterns</a> for this gorgeous hero background</span>
+    <div>
+      Made with VueJS, Vuex and <span class="hearth">❤</span> by Julien Usson<br/>
+      <span class="small">Thanks to <a href="http://www.heropatterns.com/">Hero Patterns</a> for this gorgeous hero background</span>
+    </div>
   </div>
 </template>
 
@@ -24,6 +26,10 @@ export default {
   font-weight: bold;
   text-align: center;
   background-color: $primary-color;
+
+  .hearth {
+    color: red;
+  }
 
   .small {
     font-size: 0.7em;
