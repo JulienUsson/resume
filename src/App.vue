@@ -2,12 +2,14 @@
   <div id="app">
     <template v-if="loaded">
       <profil/>
-      <experience/>
-      <Skills/>
-      <Education/>
-      <Hobbies/>
-      <Contact/>
-      <Footer/>
+      <div id="content">
+        <experience/>
+        <skills/>
+        <education/>
+        <hobbies/>
+        <contact/>
+      </div>
+      <credits/>
     </template>
     <template v-else>
       Loading...
@@ -23,7 +25,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Hobbies from './components/Hobbies';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Credits from './components/Credits';
 
 export default {
   name: 'app',
@@ -42,7 +44,7 @@ export default {
     Education,
     Hobbies,
     Contact,
-    Footer,
+    Credits,
   },
 };
 </script>
@@ -57,6 +59,10 @@ body,
   height: 100%;
   font-family: 'Roboto', sans-serif;
   color: $text-color;
+
+  #content {
+    padding: 30px 0 60px 0;
+  }
 }
 
 p {

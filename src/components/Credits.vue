@@ -2,7 +2,6 @@
   <div id="footer">
     Made with VueJS, Vuex and ❤ by Julien Usson
     <span class="small">Thanks to <a href="http://www.heropatterns.com/">Hero Patterns</a> for this gorgeous hero background</span>
-    <span class="xsmall">There is no konami code</span> 
   </div>
 </template>
 
@@ -27,10 +26,6 @@ export default {
 
   .small {
     font-size: 12px;
-  }
-
-  .xsmall {
-    font-size: 10px;
   }
 }
 </style>
