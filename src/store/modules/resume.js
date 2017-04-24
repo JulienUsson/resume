@@ -19,6 +19,7 @@ const getters = {
   experiences: state => state.resume.experiences,
   educations: state => state.resume.educations,
   skills: state => state.resume.skills,
+  projects: state => state.resume.projects,
   hobbies: state => state.resume.hobbies,
   contact: state => state.resume.contact,
 };

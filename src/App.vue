@@ -6,6 +6,7 @@
         <experience/>
         <skills/>
         <education/>
+        <projects/>
         <hobbies/>
         <contact/>
       </div>
@@ -23,6 +24,7 @@ import Profil from './components/Profil';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Education from './components/Education';
+import Projects from './components/Projects';
 import Hobbies from './components/Hobbies';
 import Contact from './components/Contact';
 import Credits from './components/Credits';
@@ -42,6 +44,7 @@ export default {
     Experience,
     Skills,
     Education,
+    Projects,
     Hobbies,
     Contact,
     Credits,
