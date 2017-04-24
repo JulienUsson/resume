@@ -78,4 +78,8 @@ pre {
 h2 {
   margin: 0;
 }
+
+a {
+  color: $text-color;
+}
 </style>

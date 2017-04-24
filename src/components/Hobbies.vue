@@ -2,7 +2,9 @@
   <block title="Centres d'intérêt">
     <div id="hobbies">
       <template v-for="hobby in hobbies">
-        <list-item><span class="title">{{hobby.title}}</span> <span class="description">{{hobby.description}}</span></list-item>
+        <list-item>
+          <span class="title" v-html="hobby.title"></span> <span class="description" v-html="hobby.description"></span>
+        </list-item>
       </template>
     </div>
   </block>

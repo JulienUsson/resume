@@ -4,7 +4,7 @@
       <template v-for="experience in experiences">
         <timeline-title>{{experience.title}}</timeline-title>
         <timeline-item v-for="experienceItem in experience.items">
-          <b>{{experienceItem.date}}</b> - {{experienceItem.title}}
+          <b>{{experienceItem.date}}</b> - <span v-html="experienceItem.title"></span>
           <br/>
           <template v-for="skill in experienceItem.skills">
             <chips>{{skill}}</chips>

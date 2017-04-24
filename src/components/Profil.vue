@@ -3,7 +3,7 @@
     <div id="hero-center">
       <img :src="gravatar" />
       <h2>{{profil.name}}</h2>
-      <pre>{{profil.description}}</pre>
+      <pre v-html="profil.description"></pre>
     </div>
   </div>
 </template>
