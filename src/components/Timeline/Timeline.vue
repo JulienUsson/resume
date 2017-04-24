@@ -19,7 +19,7 @@ export default {
 @import '../../styles/variables';
 
 .timeline rect {
-  fill: $timeline-color;
+  fill: $primary-color;
 }
 
 .timeline ellipse {

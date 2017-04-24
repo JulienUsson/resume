@@ -12,7 +12,7 @@ export default {
 
 .chips {
   display: inline-block;
-  background-color: $accent-color;
+  background-color: $primary-color;
   padding: 2px;
   margin: 1px 2px;
   font-size: 0.9em;

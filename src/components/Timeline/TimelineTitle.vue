@@ -29,6 +29,6 @@ export default {};
   margin-left: 30px;
   height: 24px;
   line-height: 24px;
-  color: $primary-color;
+  color: $accent-color;
 }
 </style>
