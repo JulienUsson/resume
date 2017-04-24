@@ -5,7 +5,7 @@
         <a :href="mailUrl" >
           <icon class="icon" name="envelope" scale="6"></icon>
         </a>
-        <div>Contactez moi par mail</div>
+        <div>Contactez-moi par mail</div>
       </div>
       <div>
         <a :href="contact.github" target="_blank">
@@ -17,13 +17,13 @@
         <a :href="contact.linkedin" target="_blank">
           <icon class="icon" name="linkedin" scale="6"></icon>
         </a>
-        <div>Retrouvez moi sur LinkedIn</div>
+        <div>Retrouvez-moi sur LinkedIn</div>
       </div>
       <div>
         <a :href="contact.twitter" target="_blank">
           <icon class="icon" name="twitter" scale="6"></icon>
         </a>
-        <div>Suivez moi sur Twitter</div>
+        <div>Suivez-moi sur Twitter</div>
       </div>
     </div>
   </block>
