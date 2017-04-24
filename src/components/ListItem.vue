@@ -8,7 +8,6 @@
         <slot/>
       </p>
     </div>
-    <timeline-separator/>
   </div>
 </template>
 

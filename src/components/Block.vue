@@ -23,6 +23,7 @@ export default {
   .block-title {
     color: $primary-color;
     padding-bottom: 10px;
+    border-bottom: 3px dashed $accent-color;
   }
   
 }
