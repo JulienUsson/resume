@@ -12,7 +12,7 @@
       <credits/>
     </template>
     <template v-else>
-      Loading...
+      <div id="loading">Loading...</div>
     </template>
   </div>
 </template>
@@ -59,6 +59,11 @@ body,
   height: 100%;
   font-family: 'Roboto', sans-serif;
   color: $text-color;
+
+  #loading {
+    background-color: $primary-color;
+    height: 100%;
+  }
 
   #content {
     padding: 30px 0 60px 0;
